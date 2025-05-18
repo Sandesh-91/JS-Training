@@ -1,5 +1,5 @@
 let input=parseInt(prompt("Enter how many odd numbers sum do you want:"));
-if(!isNaN(input))
+if(!isNaN(input) && input>0)
 {
     let sum=0;
     let count=1;
